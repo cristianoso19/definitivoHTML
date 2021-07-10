@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Video</title>
+</head>
+
+<body>
+   <main>
+      <section>
+         <!--Atributos: controls muestra los controles del video-->
+         <!--preload para que cargue o renderice nuestro video cuando la pagina se empiece a crear en el navegador-->
+         <!--enfoque en un determinado tiempo en source despues del nombre del archivo usar #t=segundoInicial,SegundoFinal-->
+         <video controls preload="auto">
+            <!--Source: le podemos indicar diferentes fuentes al video-->
+            <source src="video.mp4#t=10,20" />
+            <source src="video.mp4#t=10,20" />
+         </video>
+      </section>
+   </main>
+</body>
+
+</html>
