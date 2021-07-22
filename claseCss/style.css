@@ -1,0 +1,15 @@
+/*SELECTORES*/
+/*llamar por el elemento*/
+p {
+   color: blue;
+   font-size: 40px;
+}
+/*llamar por clase en html con class=""*/
+.parrafo {
+   color: red;
+}
+/*llamar por id, en html llamar con id=""*/
+#texto {
+   color: yellow;
+   font-size: 24px;
+}
