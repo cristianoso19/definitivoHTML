@@ -1,0 +1,6 @@
+/*aplica color rojo a las 
+* etiquetas p2 CERCA de h2*/
+/*HERMANO CERCANO O ADJACENT SIBILING*/
+h2 + p {
+   color: red; 
+}
