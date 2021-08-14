@@ -1,6 +1,17 @@
 /*aplica color rojo a las 
 * etiquetas p2 CERCA de h2*/
 /*HERMANO CERCANO O ADJACENT SIBILING*/
-h2 + p {
-   color: red; 
+/*h2 + p {
+   color: red;
+}*/
+/*aplica color rojo a las */
+/*etiquetas p2 si tiene Hermanos H2*/
+/*HERMANO GENERAL O GENERAL SIBILING*/
+/*h2 ~ p {*/
+   /*color: red;*/
+/*}*/
+/*Etiqueta p que sea hija directa*/
+/*de una etiqueta div*/
+div > p {
+  color: red;
 }
