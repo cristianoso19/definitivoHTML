@@ -19,7 +19,6 @@ div > p {
 /*Aplica color rojo a Etiqueta p que 
 * esten dentro de una etiqueta div*/
 /*DESCENDENT*/
-
 div p {
    color red;
 }
