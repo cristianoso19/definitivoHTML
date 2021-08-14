@@ -10,8 +10,16 @@
 /*h2 ~ p {*/
    /*color: red;*/
 /*}*/
-/*Etiqueta p que sea hija directa*/
-/*de una etiqueta div*/
+/*Aplica color rojo a Etiqueta p que 
+* sea hija directa de una etiqueta div*/
+/*CHILD*/
 div > p {
   color: red;
+}
+/*Aplica color rojo a Etiqueta p que 
+* esten dentro de una etiqueta div*/
+/*DESCENDENT*/
+
+div p {
+   color red;
 }
