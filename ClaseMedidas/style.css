@@ -1,0 +1,21 @@
+/*Medida absoluta, no importa el tamaño*/
+/*de la pantalla, p siempre tendra 18px*/
+/*p {*/
+   /*font-size: 18px;*/
+/*}*/
+
+/*Medida relativa,*/
+/*p siempre sera el 50% de su padre*/
+/*(16px por defecto)*/
+/*p {*/
+   /*font-size: 50%;*/
+/*}*/
+
+main {
+   background-color: red;
+   width: 100%;
+   height: 500px;
+}
+p {
+   font-size: 16px;
+}
