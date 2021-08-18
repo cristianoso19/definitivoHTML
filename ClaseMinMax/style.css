@@ -1,0 +1,14 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+/*Hace que "main" ocupe todo el*/
+/*espacio del viewport en el largo*/
+/*y en el alto sin importar el */
+/*tamaño de la pantalla*/
+main {
+   width: 100vw;
+   height: 100vh;
+   background-color: purple;
+}
