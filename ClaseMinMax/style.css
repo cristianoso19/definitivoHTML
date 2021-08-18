@@ -12,3 +12,15 @@ main {
    height: 100vh;
    background-color: purple;
 }
+/*Min y max en width se debe tener un*/
+/*width base, y con min y max delimitamos*/
+/*en el heigth no es necesario una base*/
+/*ya que podria generar un overflow*/
+section {
+   width: 80%;
+   min-width: 320px;
+   max-width: 500px;
+   min-height: 500px;
+   margin: 0 auto;
+   background-color: red;
+}
