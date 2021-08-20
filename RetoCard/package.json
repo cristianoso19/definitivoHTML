@@ -1,0 +1,14 @@
+{
+  "name": "retocard",
+  "version": "1.0.0",
+  "description": "Card challenge for position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "platzi"
+  ],
+  "author": "cristianoso19@gmail.com",
+  "license": "MIT"
+}
