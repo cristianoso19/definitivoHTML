@@ -1,0 +1,53 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html{ 
+   font-size: 62.5%;
+}
+
+body {
+   background-color: #1e2023;
+   color: #fff;
+   font-family: Helvetica;
+}
+
+header {
+   font-size: 1.9rem;
+}
+
+nav {
+   display: inline-block;
+   margin-left: 500px;
+}
+
+nav li {
+   display: inline-block;
+}
+
+main {
+   border: 1px solid white;
+}
+
+section {
+   display: inline-block;
+   
+}
+.sidebar {
+   diplay: inline-block;
+   width: 10rem;
+   borde: 1px solid white; 
+}
+.box {
+   display: block;
+   width: 10rem;
+   background-color: #fff;
+   border-radius: 20px;
+   height: 10rem;
+   margin: 1rem 1rem;
+}
+.main {
+   display: inline-block;
+}
