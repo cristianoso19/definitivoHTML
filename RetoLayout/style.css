@@ -15,39 +15,73 @@ body {
 }
 
 header {
-   font-size: 1.9rem;
+   heigth: 15vh;
+   font-size: 2rem;
+   padding: 1rem 2rem;
 }
 
+
 nav {
+   position: relative;
    display: inline-block;
-   margin-left: 500px;
+   left: 60vw;
 }
 
 nav li {
    display: inline-block;
 }
 
-main {
-   border: 1px solid white;
+section {
 }
 
-section {
+aside{
    display: inline-block;
-   
+   width: 20vw;
+   height: 70vh;
+   border: 1px solid white;
+   border-radius: 2rem;
+   margin: 0 1rem;
 }
-.sidebar {
-   diplay: inline-block;
-   width: 10rem;
-   borde: 1px solid white; 
+
+main {
+   position: absolute;
+   display: inline-block;
+   border: 1px solid white;
+   border-radius: 2rem;
+   margin: 0 3rem;
+   font-size: 1.6rem;
+   height: 70vh;
+   width: 73vw;
 }
+
+main p{
+   margin: 2rem 2rem;
+}
+
 .box {
    display: block;
    width: 10rem;
    background-color: #fff;
    border-radius: 20px;
-   height: 10rem;
-   margin: 1rem 1rem;
+   height: 15vh;
+   margin: 1rem auto;
 }
-.main {
+
+footer {
+   height: 15vh;
+   font-size: 2rem;
+}
+
+footer div {
    display: inline-block;
+   position: relative;
+   padding: 1rem 1rem;
+}
+
+footer .about{
+
+}
+
+footer .contact {
+   left: 75vw;
 }
