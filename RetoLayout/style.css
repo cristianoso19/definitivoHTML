@@ -15,9 +15,11 @@ body {
 }
 
 header {
-   heigth: 15vh;
+   heigth: 30vh;
    font-size: 2rem;
    padding: 1rem 2rem;
+   border-radius: 0 0 2rem 2rem;
+   box-shadow: 0 0 1.5rem #000;
 }
 
 
@@ -32,21 +34,22 @@ nav li {
 }
 
 section {
+   margin-top: 3vh;
 }
 
 aside{
    display: inline-block;
    width: 20vw;
    height: 70vh;
-   border: 1px solid white;
    border-radius: 2rem;
+   box-shadow: 0 0 1.5rem #000;
    margin: 0 1rem;
 }
 
 main {
    position: absolute;
    display: inline-block;
-   border: 1px solid white;
+   box-shadow: 0 0 1.5rem #000;
    border-radius: 2rem;
    margin: 0 3rem;
    font-size: 1.6rem;
@@ -60,9 +63,10 @@ main p{
 
 .box {
    display: block;
-   width: 10rem;
-   background-color: #fff;
-   border-radius: 20px;
+   width: 15vw;
+   background-color: #1e2023;
+   border-radius: 2rem;
+   box-shadow: 0 0 1.5rem #000;
    height: 15vh;
    margin: 1rem auto;
 }
@@ -70,6 +74,7 @@ main p{
 footer {
    height: 15vh;
    font-size: 2rem;
+   margin: 2rem 2rem;
 }
 
 footer div {
@@ -79,9 +84,12 @@ footer div {
 }
 
 footer .about{
-
+   border-radius: 2rem;
+   box-shadow: 0 0 1.5rem #000;
 }
 
 footer .contact {
    left: 75vw;
+   border-radius: 2rem;
+   box-shadow: 0 0 1.5rem #000;
 }
