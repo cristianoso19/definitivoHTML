@@ -51,20 +51,21 @@ ul li {
 }
 
 .card {
+   margin-top: 1.8rem;
    padding: 1.5rem 1.5rem;
    border-radius: 0.7rem;
    background-color: var(--bg-card-color);
-   color: var(--font-primary-color);
+   color: var(--font-secondary-color);
    display: flex;
    justify-content: space-between;
 }
 .card-title{
    font-weight: 600;
-   font-size: 1.8rem;
+   font-size: 1.5rem;
    margin-bottom: 0.3rem;
 }
 .card-description{
-   font-size: 1.3rem;
+   font-size: 1.2rem;
 }
 .card-primary-text {
    margin-top: 2rem;
@@ -84,4 +85,14 @@ ul li {
 .card-image {
    width: 150px;
    height: 150px;
+}
+.card-body {
+   display: flex;
+}
+.card-statistic-icon{
+   width: 3rem;
+   height: 3rem;
+   border-radius: 1.5rem;
+
+
 }
