@@ -12,29 +12,7 @@
    --header-size: 4rem;
    --font-icons: 2.4rem;
 }
-.badge {
-   width: 5rem;
-   height: 5rem;
-   border-radius: 2.5rem;
-   font-size: 3rem;
-   padding: 1rem 1rem;
-}
-.badge-primary{
-   background-color: #7367f030;
-   color: #7367f0;
-}
-.badge-info{
-   background-color: #00cfe830;
-   color: #00cfe8;
-}
-.badge-danger{
-   background-color: #ea545530;
-   color: #ea5455;
-}
-.badge-success{
-   background-color: #28c76f30;
-   color: #28c76f;
-}
+
 * {
    box-sizing: border-box;
    margin: 0;
@@ -118,10 +96,36 @@ ul li {
 }
 .card-statistic{
    margin-top: 2rem;
+   width: 4rem;
+   display: flex;
 }
-.card-statistic-icon{
+.badge {
+   display: inline-block;
    width: 5rem;
    height: 5rem;
    border-radius: 2.5rem;
-
+   font-size: 3rem;
+   padding: 1rem 1rem;
+}
+.badge-primary{
+   background-color: #7367f030;
+   color: #7367f0;
+}
+.badge-info{
+   background-color: #00cfe830;
+   color: #00cfe8;
+}
+.badge-danger{
+   background-color: #ea545530;
+   color: #ea5455;
+}
+.badge-success{
+   background-color: #28c76f30;
+   color: #28c76f;
+}
+.badge-description{
+   padding: 1rem 0.8rem;
+}
+.badge-description-title{
+   font-size: 1.5rem;
 }
