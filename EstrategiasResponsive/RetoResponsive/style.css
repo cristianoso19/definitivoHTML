@@ -1,0 +1,47 @@
+:root {
+   --bg-color: #161d31;
+   --bg-card-color: #283046;
+   --font-primary-color: #d0d2d6;
+   --font-secondary-color: #b4b7bd;
+   --primary-color: #7367f0;
+   --secondary-color: #ea5455;
+   --header-size: 4rem;
+   --font-icons: 2.4rem;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+   background-color: var(--bg-color);
+}
+
+header {
+   font-size: var(--font-icons);
+   color: var(--font-secondary-color);
+}
+header nav {
+   display: flex;
+   flex-wrap:  wrap;
+   justify-content: space-between;
+   background-color: var(--bg-card-color);
+   margin: 1.8rem 1.8rem;
+   padding: 1.5rem 1.5rem;
+   border-radius: 0.7rem;
+}
+header nav span {
+
+}
+header nav ul {
+   width: 40vw;
+   display: flex;
+   justify-content: space-between;
+}
+ul li {
+   list-style-type: none; 
+
+}
