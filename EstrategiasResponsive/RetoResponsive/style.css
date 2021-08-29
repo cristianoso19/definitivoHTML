@@ -5,10 +5,36 @@
    --font-secondary-color: #b4b7bd;
    --primary-color: #7367f0;
    --secondary-color: #ea5455;
+   --badge-primary: #7367f030;
+   --badge-info: #00cfe830;
+   --badge-danger: #ea545530;
+   --badge-success: #28c76f30;
    --header-size: 4rem;
    --font-icons: 2.4rem;
 }
-
+.badge {
+   width: 5rem;
+   height: 5rem;
+   border-radius: 2.5rem;
+   font-size: 3rem;
+   padding: 1rem 1rem;
+}
+.badge-primary{
+   background-color: #7367f030;
+   color: #7367f0;
+}
+.badge-info{
+   background-color: #00cfe830;
+   color: #00cfe8;
+}
+.badge-danger{
+   background-color: #ea545530;
+   color: #ea5455;
+}
+.badge-success{
+   background-color: #28c76f30;
+   color: #28c76f;
+}
 * {
    box-sizing: border-box;
    margin: 0;
@@ -88,11 +114,14 @@ ul li {
 }
 .card-body {
    display: flex;
+   flex-direction: column;
+}
+.card-statistic{
+   margin-top: 2rem;
 }
 .card-statistic-icon{
-   width: 3rem;
-   height: 3rem;
-   border-radius: 1.5rem;
-
+   width: 5rem;
+   height: 5rem;
+   border-radius: 2.5rem;
 
 }
