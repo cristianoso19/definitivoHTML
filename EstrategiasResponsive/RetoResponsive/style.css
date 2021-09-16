@@ -34,7 +34,6 @@ header nav {
    flex-wrap:  wrap;
    justify-content: space-between;
    background-color: var(--bg-card-color);
-   margin: 1.8rem 1.8rem;
    padding: 1.5rem 1.5rem;
    border-radius: 0.7rem;
 }
@@ -208,4 +207,13 @@ ul li {
 .widget-img{
    width: 100px;
    height: 100px;
+}
+
+
+@media (min-width: 1024px){
+   .container{
+      width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+   }
 }
