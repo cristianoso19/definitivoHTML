@@ -99,6 +99,11 @@ ul li {
    width: 4rem;
    display: flex;
 }
+.card-icon{
+   margin-top: 1rem;
+   width: 20rem;
+   display: flex;
+}
 .badge {
    display: inline-block;
    width: 5rem;
@@ -107,9 +112,21 @@ ul li {
    font-size: 3rem;
    padding: 1rem 1rem;
 }
+.badge-sq {
+   display: inline-block;
+   width: 4rem;
+   height: 4rem;
+   border-radius: 0.5rem;
+   font-size: 2.5rem;
+   padding: 0.75rem 0.75rem;
+}
 .badge-primary{
    background-color: #7367f030;
    color: #7367f0;
+}
+.badge-warning{
+   background-color: #ff9f4330;
+   color: #ff9f43;
 }
 .badge-info{
    background-color: #00cfe830;
@@ -126,6 +143,69 @@ ul li {
 .badge-description{
    padding: 1rem 0.8rem;
 }
+.badge-sq-description{
+   padding: 0.3rem 0.8rem;
+}
 .badge-description-title{
    font-size: 1.5rem;
+}
+.badge-icon-title{
+   font-weight: normal;
+   font-size: 1.5rem;
+}
+.card-values{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+.card-value{
+   padding: 1rem 0.8rem;
+   font-weight: bold;
+   font-size: 1.5rem;
+   margin-top: 1rem;
+}
+.value-danger{
+   color: #ea5455;
+} 
+.value-success{
+   color: #28c76f;
+}
+.widgets-container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap:  wrap;
+}
+.widget{
+   margin-top: 1.8rem;
+   padding: 1.5rem 1.5rem;
+   border-radius: 0.7rem;
+   width: 40vw;
+   min-width: 17rem;
+   background-color: var(--bg-card-color);
+   color: var(--font-secondary-color);
+}
+.widget-horizontal{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1.8rem;
+   padding: 1.5rem 1.5rem;
+   border-radius: 0.7rem;
+   width: 100vw;
+   min-width: 17rem;
+   background-color: var(--bg-card-color);
+   color: var(--font-secondary-color);
+}
+.widget-chart{
+}
+.widget-title{
+   font-size: 1.3rem;
+   font-weight: 600;
+}
+.widget-span{
+   font-size: 2.5rem;
+   font-weight: 600;
+}
+.widget-img{
+   width: 100px;
+   height: 100px;
 }
