@@ -53,7 +53,10 @@ ul li {
    margin: 1.8rem 1.8rem;
 }
 
-.card {
+.card1,
+.card2,
+.card3{
+   width: 100%;
    margin-top: 1.8rem;
    padding: 1.5rem 1.5rem;
    border-radius: 0.7rem;
@@ -225,9 +228,7 @@ ul li {
       display: flex;
       flex-wrap: wrap;
    }
-   .card{
-      width: 95vw;
-   }
+   
    .card-info{
       justify-content: space-between;
    }
@@ -245,13 +246,13 @@ ul li {
    .card-badges {
       display: flex;
       justify-content: space-around;
-      width: 100vw;
+      width: 90vw;
    }
    .card-icon {
       width: auto;
    }
    .card-values {
-      width: 100vw;
+      width: 90vw;
       flex-direction: row;
       justify-content: space-around;
    }
@@ -271,8 +272,26 @@ ul li {
 }
 @media (min-width: 1024px){
    .container{
-      width: 1024px;
+      max-width: 1024px;
       margin-left: auto;
       margin-right: auto;
+   }
+   .card1{
+      width: 40%;
+   }
+   .card2{
+      width: 55%;
+      margin-left: 5%;
+   }
+   .card3{
+      width: 100%;
+   }
+   .widget-horizontal{
+      width: 40%; 
+   }
+   .card-info{
+      max-width: 10rem;
+   }
+   .card-values{
    }
 }
