@@ -59,6 +59,11 @@ ul li {
    border-radius: 0.7rem;
    background-color: var(--bg-card-color);
    color: var(--font-secondary-color);
+}
+.card-info {
+   display: flex;
+}
+.card-header{
    display: flex;
    justify-content: space-between;
 }
@@ -91,7 +96,6 @@ ul li {
 }
 .card-body {
    display: flex;
-   flex-direction: column;
 }
 .card-statistic{
    margin-top: 2rem;
@@ -194,8 +198,6 @@ ul li {
    background-color: var(--bg-card-color);
    color: var(--font-secondary-color);
 }
-.widget-chart{
-}
 .widget-title{
    font-size: 1.3rem;
    font-weight: 600;
@@ -209,7 +211,9 @@ ul li {
    height: 100px;
 }
 .footer {
-
+   display: flex;
+   justify-content: center;
+   color: var(--font-secondary-color);
 }
 .footer h3{
    font-family: Helvetica;
@@ -222,13 +226,34 @@ ul li {
       flex-wrap: wrap;
    }
    .card{
-      width: 100vw;
+      width: 95vw;
+   }
+   .card-info{
+      justify-content: space-between;
+   }
+   .card-statistics-container{
+      display: flex;
+      justify-content: space-between;
+   }
+   .card-statistic{
+      width: auto;
    }
    .card-body{
-      width: 80vw;
-      display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      flex-wrap:  wrap;
+   }
+   .card-badges {
+      display: flex;
+      justify-content: space-around;
+      width: 100vw;
+   }
+   .card-icon {
+      width: auto;
+   }
+   .card-values {
+      width: 100vw;
+      flex-direction: row;
+      justify-content: space-around;
    }
    .widgets-container{
       width: 100%;
